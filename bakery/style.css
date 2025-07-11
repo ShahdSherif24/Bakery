@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&display=swap');
+body{ 
+    font-family: "Alegreya", serif;
+}
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+  
+img{
+    width: 100%;
+}
+.container{
+    width: 90%;
+    margin:      0 auto;}
+.landing{
+    background-image: url(../images/drew-coffman-1872.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+.layer{
+    background-color: rgba(0, 0,0,0.2);
+    height: 100vh;
+}
+.clr{
+    clear: both;
+}
+.logo{
+    width: 150px;
+    float: left;
+}
+.nav-menu{
+    float: right;
+}
+.nav-menu li{
+    display: inline-block;
+    margin: 0 20px;
+}
+.landing .navbar{
+    padding: 30px 0;
+}
+a{
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+}
+.landing-area{
+    text-align: center;
+    padding-top: 120px;
+    color: white;
+}
+h1{
+    font-size: 90px;
+    padding: 30px 0;
+}
+.landing .btn-landing{
+    padding-top: 30px;
+}
+.btn-landing button{
+    padding: 15px 20px;
+    border: 1px solid;
+    color: white;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.btn1{
+    background-color: #8E7754;
+    border: #8E7754;
+    margin-right: 10px;
+}
+.btn2{
+    background-color: transparent;
+    border-color: white;
+}
+.landing-area a{
+    width: 30px;
+    display:inline-block;
+    margin-top: 50px;
+    height: 50px;
+    border: 1px solid white;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+.landing-area a span{
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    background-color: white;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+/* aboutttttttttttt */
+.about{
+    padding: 50px 0;
+}
+.about .about-img , .about .about-info{
+    display: inline-block;
+    width: 48%;
+    vertical-align: top;
+}
+.about-img img{
+    width: 90%;
+}
+.about .about-info img{
+    width: 50px;
+    vertical-align: middle;
+}
+.about-info .text{
+    text-align: center;
+}
+.about  .about-info p{
+    padding: 20px 0;
+}
+.about-info li{
+    padding-bottom: 10px;
+}
+/* offer */
+
+.offer{
+    background-color: #F8F8F8;
+    padding: 50px 0;
+}
+.offer .offer-info , .offer .offer-img{
+    display: inline-block;
+    width: 49%;
+    vertical-align: top;
+}
+.offer .about-info .text{
+    text-align: center;  
+}
+.offer h2{
+    margin-top: 50px;
+}
+
+.offer p{
+    padding: 20px 0;
+}
+/* gallary */
+.gallary{
+    padding: 50px 0;
+    text-align: center;
+}
+.title p{
+    padding: 30px 0;
+    color:#A3A29B;
+}
+.gallary .item{
+    width: 33.3%;
+    float: left;
+}
+.gallary .item img{
+    width: 90%;
+}
+.gallary p{
+    color:#A3A29B;
+}
+.gallary h3{
+    color:#504f4d;
+
+}
+/* blog */
+.blog{
+    padding: 50px 0;
+}
+.blog-info{
+    float: left;
+    width: 49%;
+}
+.blog-map{
+    float: right;
+    width: 49%;
+}
+.blog-info li img{
+    width: 60px;
+    vertical-align: middle;
+}
+.blog-info p{
+    padding: 30px 0;
+}
+/* contact */
+.contact{
+    padding: 50px 0;
+    background-color: #403D38;
+}
+.contact .item1{
+    width: 23%;
+    float: left;
+    color: #A3A29B;
+    padding: 0 10px;
+}
+.contact .item1 img{
+    width: 30px;
+    vertical-align: middle;
+}
+.contact .item1 p{
+    padding: 30px 0;
+}
+.contact .item1 h3{
+    padding-bottom: 30px;
+}
+.contact li{
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom:1px solid #A3A29B ;
+}
+/* footer */
+.footer{
+    background-color: #353330;
+    padding: 50px 0;
+    text-align: center;
+    color: #A3A29B;
+}
+.footer .foot-logo{
+    width: 200px;
+    margin: auto;
+}
+.footer p{
+    padding: 20px 0;
+}
+.footer .icons img{
+    width: 40px;
+}
